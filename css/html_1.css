@@ -1,0 +1,71 @@
+body
+	{
+		background-image: url(../images/tushan.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+/*.divinline
+	{
+		display: inline;
+	}
+*/
+#tushanhonghong
+	{
+		width: 400px;
+		height: 740px;
+		border: 2px;
+		padding: 25px;
+		border-left: 15px;
+		border-right: 15px;
+		border-color: red;
+		border-style: groove;
+		background-image: url(../images/huyao.JPG);
+		background-repeat:no-repeat; 
+		background-size: cover;
+		float: left;   /*漂移后就不再属于流了，放在右边可以理解，为什么左边不行呢？*/
+	}
+h1.tushanhonghong
+	{
+		font-family: KaiTi;
+		font-size: 4em;
+		text-align: center;
+	}
+#dongfanghuaizhu
+	{
+		width: 400px;
+		height: 740px;
+		border: 2px;
+		padding: 25px;
+		border-left: 15px;
+		border-right: 15px;
+		border-color: red;
+		border-style: groove;
+		background-image: url(../images/huaizhu.JPG);
+		background-repeat:no-repeat; 
+		background-size: cover;
+		float: right;
+	}
+h1.dongfanghuaizhu
+	{
+		font-family: KaiTi;
+		font-size: 4em;
+		text-align: center;
+	}
+*/
+.mainpage
+	{
+		font-family: KaiTi;
+		font-size: 200%;
+		color: purple;
+	}
+a{text-decoration: none;}
+#footer
+	{
+		background-color: #675c47;
+		color: black;
+		text-align: center;
+		padding: 15px;
+		margin: 10px;
+		font-size: 90%;
+		clear: right;
+	}

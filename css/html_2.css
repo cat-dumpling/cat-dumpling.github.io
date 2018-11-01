@@ -1,0 +1,23 @@
+
+		 body
+		{
+			background-image: url(../images/huaizhu.JPG);
+			background-repeat:no-repeat; 
+
+		}
+		h1.html_2
+		{
+			font-family: KaiTi;
+			font-size: 3.5em;
+		}
+		h2.mainpage
+		{
+			font-family: KaiTi;
+			font-size: 200%;
+			color: #;
+
+
+		}
+		a{ color:#333;  text-decoration:none;/*无链接时颜色*/   }
+		a:hover{ color:#F00;/*鼠标经过链接时颜色*/}
+		a:active{ color:#30F; /*鼠标点击链接时颜色*/}

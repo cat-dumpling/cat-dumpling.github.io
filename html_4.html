@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>html_4</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form action="html_4.php" method="post">
+		<p>
+			text1:<input type="text" name="text1" /> <br /> <!--单行文本，记得xhtml的格式-->
+			text2:<input type="text" name="text2" /> <br />
+
+			radio:<input type="radio" name="radio" value="smile" /><br /><!--单选，xhtml-->
+			radio:<input type="radio" name="radio" value="happy" /><br />
+
+			checkbox:<input type="checkbox" name="checkbox" value="jump" /><br /> <!--复选，xhtml-->
+			checkbox:<input type="checkbox" name="checkbox" value="fly" /><br />
+
+			textarea:<br />
+			<textarea name="textarea" rows="6" cols="10">aaaaabbbbb1234567890我是默认文本，请删除，然后添加新的文本。</textarea><br /><!--文本区,好像并不严格对应-->
+
+			select&option:<br /> 
+			<select name="select&option" multiple="multiple"><!--下拉选项,复选型-->
+				<option value="a">a</option>
+				<option value="b">b</option>
+				<option value="c">c</option>
+			</select>		
+		</p>
+		<p>
+			<input type="submit" value="提交">
+		</p>
+		
+	</form>
+	<form action="html_3.html" method="get">  <!--其实就是获取html_3（本应是个web程序）-->
+		<fieldset>
+			<legend>get类型</legend>
+			<input type="text" name="text3" /><br>
+			<input type="password" name="password" /><br />
+			<input type="file" name="doc" /><br />
+			<input type="submit" value="提交">
+		</fieldset>
+	</form>
+
+</body>
+</html>
